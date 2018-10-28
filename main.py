@@ -17,3 +17,6 @@ for name in names:
     username = name.lower() + extra + extra2 + random.choice(emails)
     password = "".join(random.choice(chars) for i in range(8))
     print("Username: {:30s}  Password: {}".format(username,password))
+
+
+#adding test change 1
